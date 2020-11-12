@@ -139,7 +139,20 @@ function Employee(name, email, hireDate) {
     }
         return this.savedPosts
     }
-    
+    // altenate solution found during code along-wanted to save for notes
+  //   User.prototype.removeSavedPost=function(id){     
+  //     this.savedPosts= this.savedPosts.filter(x=>{
+  //       return x.id!==id
+  //     })
+  //     return this.savedPosts
+  // }
+
+
+
+
+
+
+
   ////////// PROBLEM 7 //////////
   
   // You will continue to use the constructor function you created in problem 5.
