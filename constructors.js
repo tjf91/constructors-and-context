@@ -169,3 +169,15 @@ function Employee(name, email, hireDate) {
     return this.savedPosts
   }
   
+
+  // User.prototype.changePostRating=function(id,rating){
+  //   this.savedPosts= this.savedPosts.map(obj=>{    
+  //       if(obj.id===id){
+  //         obj.rating=rating       
+  //       }      
+  //   return obj
+          
+  //   }) 
+    
+  //   return this.savedPosts
+  // }
